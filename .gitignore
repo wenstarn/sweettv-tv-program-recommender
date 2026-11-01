@@ -5,3 +5,24 @@
 !/submission*.csv
 !/Exam.ipynb
 !/final_report.md
+
+
+# Lightweight verification package (no training or report-generation code).
+!/business_analysis/
+!/business_analysis/README.md
+!/business_analysis/verify_results.py
+
+# Published evidence only. Raw metadata values retain their source language.
+!/business_analysis/outputs/
+!/business_analysis/outputs/business_analysis.md
+!/business_analysis/outputs/method_comparison.csv
+!/business_analysis/outputs/user_profiles.csv
+!/business_analysis/outputs/user_recommendations.csv
+!/business_analysis/outputs/user_method_metrics.csv
+!/business_analysis/outputs/selected_user_history.csv
+!/business_analysis/outputs/selected_user_targets.csv
+!/business_analysis/outputs/validation_predictions.csv
+!/business_analysis/outputs/validation_targets.csv
+!/business_analysis/outputs/candidate_catalog.csv
+!/business_analysis/outputs/run_manifest.json
+!/business_analysis/outputs/kaggle_results.png

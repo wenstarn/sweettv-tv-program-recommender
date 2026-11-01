@@ -1,0 +1,87 @@
+{
+  "notebook_sha256": "b2dbfa27849f84fe64e980ea1e0a0a1517c6924f30be6083c8b4de189f9a4f9f",
+  "frozen_notebook_sha256": "b2dbfa27849f84fe64e980ea1e0a0a1517c6924f30be6083c8b4de189f9a4f9f",
+  "notebook_unchanged": true,
+  "input_sha256": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "duckdb": "2.0.0",
+    "implicit": "0.7.3",
+    "threadpoolctl": "3.7.0"
+  },
+  "selected_users": [
+    "11319785650938584699",
+    "5911263612844924182"
+  ],
+  "initial_selection": [
+    "11319785650938584699",
+    "5911263612844924182"
+  ],
+  "preparation_seconds": 26.925251699984074,
+  "stage_seconds": {
+    "29": 1.8433004000107758,
+    "30": 0.19407060000230558,
+    "31": 0.45798229999491014,
+    "33": 0.7056972999998834,
+    "34": 0.6215955999796279,
+    "35": 0.06839499998022802,
+    "ppr_inference": 21.343696399999317,
+    "36": 28.869638300006045
+  },
+  "original_protocol_stage_seconds": {
+    "29": 3.7226385999820195,
+    "30": 1.3091743999975733,
+    "31": 0.45749470000737347,
+    "33": 0.7074419000127818,
+    "34": 0.6185498999839183,
+    "35": 0.065591000020504,
+    "ppr_inference": 21.300179999991087,
+    "36": 22.02255600001081
+  },
+  "leakage_audit": {
+    "crossing_broadcasts": 420,
+    "views_with_future_seconds": 411,
+    "future_seconds": 976815.0,
+    "strict_train_views": 316416,
+    "removed_train_views": 318,
+    "strict_latest_observation": "2020-05-18 00:00:00"
+  },
+  "total_seconds": 191.92702529998496,
+  "checks": {
+    "all_methods_same_users": true,
+    "top5_unique_and_eligible": true,
+    "training_observations_clipped_at_cutoff": true,
+    "metric_matches_notebook": true,
+    "recommendation_rows": 110,
+    "validation_users": 4030,
+    "common_candidates": 1867,
+    "saved_metric_mismatches": []
+  },
+  "analysis_source_sha256": {
+    "__init__.py": "483c60ce0b801b78776092719508256faa2552901da0b60f1396e0c044af5950",
+    "analyze_recommendations.py": "a0c174f54d3c68a5e477145683cae12b80e6450c59d46d7ee4ab53a737496575",
+    "config.py": "28bd26a218b9b98190c4b68bc41b1b7aa4c2984e88367244f1aaff70993df1ab",
+    "data_preparation.py": "23df6b010c7b4ceaa238a22adbb9e9b0203e0693148509ca825e4d645765d681",
+    "evaluation.py": "12d6df85d3000a8b810723901fcae070a2c6935e1424ebf8eb0d26c1713a0147",
+    "export_source.py": "3b126b1e67fd96a57517bfa661a592890ce9cfdf7cdf18b83aa039adbf97822c",
+    "notebook_source.json": "98f0ce2c0230a32ccb087784f4526bcb574c2818bd15a069b30e351e3583f958",
+    "README.md": "7ff7c6058ec84171ba6c444134c6f3ed6ce56f32ca809b11415175a51129e41d",
+    "recommenders.py": "2208480ff01fe9c0c50f1865556a013aba609ae0716cf182d2b9d280727152eb",
+    "requirements.txt": "1bf731b2ecdb3faccfd66827f45f3bfd620cf048d7a24fe3641a7ad23bef776a",
+    "run_analysis.py": "444b13f174aa66888239bfea82d7e8a8515927343d6ba1063ceda398c1dc62fa",
+    "source_runtime.py": "71458f26c535559687e356ca4e383aaa74c8bfbc279ffe68ea54ba9c72de8a50",
+    "user_selection.py": "71988963dc824c6c3ac121fbba0f8c12db423f22d0654e3361757cbda3dd0888",
+    "verify_outputs.py": "679db72acf31b3ddc50fbdda2a2bd07dd19cc2e0850914a799ee3a41146472a7"
+  }
+}
