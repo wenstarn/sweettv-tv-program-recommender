@@ -1,0 +1,7 @@
+# Ignore everything except the files intended for this repository.
+*
+
+!/.gitignore
+!/submission*.csv
+!/Exam.ipynb
+!/final_report.md
